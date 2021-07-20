@@ -1,9 +1,11 @@
 import './App.css';
+import './components/addressbook'
+import AddressBook from './components/addressbook';
 
 function App() {
   return (
     <div className="App">
-    <h1>Address Book</h1>
+    <AddressBook />
     </div>
   );
 }
